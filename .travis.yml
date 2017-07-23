@@ -1,0 +1,15 @@
+language: node_js
+
+node_js:
+- '7'
+
+install:
+- npm install
+- npm run build
+
+deploy:
+  skip_cleanup: true
+  provider: firebase
+  project: digital-escape-velocity
+  token:
+    secure: "FGIF4ncJZlRFq8pGEBJGQ3ybjADaVPFpoi6y3I/o9CZKUg34tMQKNLlYpjH6qU1V1mfbKQ4jtAOrUbdtWaxqa2WStlNgxJ06Dis8gBqYT3zFo3NBSghLb2UUh92lPn/WZ9KzGo5isLFkXNHFMF2CjH0XX+XLccnqdHbZWZuOhbHZBMa1iKCtjrJNVV3wEMlaod82CyAdhSU3YCW3h34fPTVaAlP0Q84SOYG6AVd9ARqCl2M8aSnHJpd1WfVkJkTa4b6h72ZynsFbfuqqng15b9pFmXbflioOcXOZrbdi8CqzIlCNdHStEsGC2Q9y3/pXEuE993bMe/xIdCv2f1u1+a8iLOtXjgxX1dibDWexkklBsmttC/5BdgypPwZyNaCv+jyk/MmKmkrMgFQOgax7frIrnCISYiU7zW2mEQkwONbk616DbevkhSqt8s5CtfBFi4zt19wr0O5m0/psM1V8G8VtE366iL8kOG3aGaqWorIsoiF8LEg24B2ZggDtNPHmgraCxjkejIlO2Q9ZiWumj7N2RA57yLYZ6sGUzw2I4+Ow5Qg0zVbVgp3+5176n5ueDvDIYz/8gTATdBH//PWHbC6ULU6y88CNKr2pPz+YyOgFNcl6w94jdgChPl7rabp19EBk2DiFejNpRlAUnHzG7830gmoCF5UQpEcsP1KwPyA="

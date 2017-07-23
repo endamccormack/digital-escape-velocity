@@ -1,18 +1,23 @@
-import { h, Component } from 'preact';
-import { Link } from 'preact-router/match';
-import style from './style';
+import './style';
+import { Layout, Navigation } from 'preact-mdl';
 
-export default class Header extends Component {
-	render() {
-		return (
-			<header class={style.header}>
-				<h1>Preact App</h1>
-				<nav>
-					<Link activeClassName={style.active} href="/">Home</Link>
-					<Link activeClassName={style.active} href="/profile">Me</Link>
-					<Link activeClassName={style.active} href="/profile/john">John</Link>
-				</nav>
-			</header>
-		);
-	}
-}
+const Header = () => (
+	<div style="margin: 0 auto;">
+		<Layout.Header>
+			<Layout.HeaderRow>
+				<Layout.Title>
+					<img src="assets/icons/dev-white.png" style="width:50px; margin-top:15px; float:left;" />
+					<h3 style="font-family:'Roboto Mono'; float:right; padding-left:10px;">Digital Escape Velocity</h3>
+				</Layout.Title>
+				<Layout.Spacer />
+				<Layout.Content>
+					<Navigation style="float:right">
+						<Navigation.Link href="/">Home</Navigation.Link>
+					</Navigation>
+				</Layout.Content>
+			</Layout.HeaderRow>
+		</Layout.Header>
+	</div>
+);
+
+export default Header;

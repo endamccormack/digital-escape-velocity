@@ -1,13 +1,9 @@
-import { h, Component } from 'preact';
-import style from './style';
+import './style';
 
-export default class Home extends Component {
-	render() {
-		return (
-			<div class={style.home}>
-				<h1>Home</h1>
-				<p>This is the Home component.</p>
-			</div>
-		);
-	}
-}
+const Home = () => (
+	<div style="margin: 0px auto;width: 357px; padding:200px;">
+		<img src="assets/icons/dev-no-text.png" style="margin: 0 auto;" />
+	</div>
+);
+
+export default Home;
