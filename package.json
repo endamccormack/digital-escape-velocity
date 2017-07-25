@@ -26,11 +26,13 @@
   },
   "dependencies": {
     "material-design-lite": "^1.3.0",
+    "node-sass": "^4.5.3",
     "preact": "^8.2.1",
     "preact-compat": "^3.16.0",
     "preact-material-components": "^1.0.14",
     "preact-mdl": "^2.2.1",
     "preact-router": "^2.5.4",
+    "sass-loader": "^6.0.6",
     "webfontloader": "^1.6.28"
   }
 }

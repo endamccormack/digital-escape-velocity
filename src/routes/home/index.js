@@ -1,8 +1,9 @@
 import './style';
 
 const Home = () => (
-	<div style="margin: 0px auto;width: 357px; padding:200px;">
-		<img src="assets/icons/dev-no-text.png" style="margin: 0 auto;" />
+	<div style="padding-top:100px; text-align: center;">
+		<img src="assets/icons/dev-no-text.png" style="width: 357px; margin: 0 auto;" />
+		<h1 style="color: #005245">COMING SOON</h1>
 	</div>
 );
 
