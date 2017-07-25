@@ -1,9 +1,11 @@
 import './style';
 
 const Home = () => (
-	<div style="padding-top:100px; text-align: center;">
-		<img src="assets/icons/dev-no-text.png" style="width: 357px; margin: 0 auto;" />
-		<h1 style="color: #005245">COMING SOON</h1>
+	<div id="home" class="mdl-layout__content">
+		<div class="page-content mdl-layout__content">
+			<img src="assets/icons/dev-no-text.png" />
+			<h1>COMING SOON</h1>
+		</div>
 	</div>
 );
 
