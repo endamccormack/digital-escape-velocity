@@ -2,18 +2,54 @@
 @import url('https://fonts.googleapis.com/css?family=Material+Icons');
 
 :global {
+
+  h1 {
+    color: #005245
+  }
+  h4 {
+    margin-bottom: 40px;
+  }
+
   #home {
     width: 100%;
     text-align: center;
-    padding: 100px 0;
     margin: 0 auto;
 
-    h1 {
-      color: #005245
+    #header {
+      background-size: cover;
+      background: url("/assets/home-title.jpg") bottom;
+      width: 100%;
+
+      .container{
+        margin-bottom: 0px;
+      }
+
+      #logo {
+        #rocket {
+          position: absolute;
+          top: 40px;
+        }
+
+        #planet {
+          position: absolute;
+          margin-top: 20px;
+          margin-bottom: 50px;
+        }
+      }
+
+      #title {
+        float: left;
+      }
     }
 
-    img {
-      width: 357px;
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      margin-bottom: 100px;
+    }
+
+    .mdl-card{
+      padding: 20px;
     }
   }
 }
