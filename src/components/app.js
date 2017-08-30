@@ -6,6 +6,7 @@ import Header from './header';
 import Drawer from './drawer';
 import Footer from './footer';
 import Home from '../routes/home';
+import GoogleAnalytics from './google-analytics';
 
 
 export default class App extends Component {
@@ -17,6 +18,7 @@ export default class App extends Component {
 	render() {
 		return (
 			<div id="app">
+				<GoogleAnalytics />
 				<Layout class="mdl-layout--no-drawer-button mdl-color--grey-100" style="margin: 0 auto;" fixed-header>
 					<Header />
 					<Drawer />

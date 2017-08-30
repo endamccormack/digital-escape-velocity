@@ -73,7 +73,7 @@ const Home = () => (
 				</div>
 			</div>
 
-			<div id="people" class="container">
+			<div id="engagement" class="container">
 				<h1>Lets start the conversation</h1>
 				<h4>Reach out to us if you're interested in working together on fixing the real problems affecting you</h4>
 				<a href="mailto:enda@escapevelocity.eu">
@@ -82,21 +82,21 @@ const Home = () => (
 					</button>
 				</a>
 			</div>
-			
-			<style dangerouslySetInnerHTML={{ __html: `
-			#rocket{
-				animation: slideInFromLeft 2s ease-in-out;
-				-webkit-animation: slideInFromLeft 1s ease-in-out;
-			}
-			@keyframes slideInFromLeft {
-				from {top: 2000px;}
-			}
-			@-webkit-keyframes slideInFromLeft {
-				from {top: 2000px;}
-			}
-			` }}
-			/>
 		</div>
+
+		<style dangerouslySetInnerHTML={{ __html: `
+				#rocket{
+					animation: slideInFromLeft 2s ease-in-out;
+					-webkit-animation: slideInFromLeft 1s ease-in-out;
+				}
+				@keyframes slideInFromLeft {
+					from {top: 2000px;}
+				}
+				@-webkit-keyframes slideInFromLeft {
+					from {top: 2000px;}
+				}
+			` }}
+		/>
 
 	</div>
 );
