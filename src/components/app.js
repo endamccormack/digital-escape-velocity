@@ -22,7 +22,7 @@ export default class App extends Component {
 				<Layout class="mdl-layout--no-drawer-button mdl-color--grey-100" style="margin: 0 auto;" fixed-header>
 					<Header />
 					<Drawer />
-					<Layout.Content class="mdl-color--grey-100">
+					<Layout.Content>
 						<Router onChange={this.handleRoute}>
 							<Home path="/" />
 						</Router>
