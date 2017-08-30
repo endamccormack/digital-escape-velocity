@@ -17,7 +17,7 @@ const Home = () => (
 			</div>
 
 			<div id="what-we-do" class="container">
-				<h1>What we do</h1>
+				<h2>What we do</h2>
 				<h4>Our bread and butter is solving problems. We are about making meaningful change in organisations whatever way we can.</h4>
 
 				<div class="mdl-grid">
@@ -41,7 +41,7 @@ const Home = () => (
 			</div>
 
 			<div id="people" class="container">
-				<h1>Our people's previous engagements</h1>
+				<h2>Our people's previous engagements</h2>
 				<h4>Our people are our life blood, and our people will ultimately be who make you a success. Here is just a short list of what they're used to.</h4>
 				<div class="mdl-grid">
 					<div class="mdl-shadow--2dp mdl-cell mdl-cell--3-col">
@@ -74,7 +74,7 @@ const Home = () => (
 			</div>
 
 			<div id="engagement" class="container">
-				<h1>Lets start the conversation</h1>
+				<h2>Lets start the conversation</h2>
 				<h4>Reach out to us if you're interested in working together on fixing the real problems affecting you</h4>
 				<a href="mailto:enda@escapevelocity.eu">
 					<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
