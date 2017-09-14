@@ -5,7 +5,7 @@ const Header = () => (
 	<Layout.Header>
 		<Layout.HeaderRow>
 			<Layout.Title>
-				<img src="assets/icons/dev-white.png" />
+				<img src="/assets/icons/dev-white.png" />
 				<span class="mdl-layout--large-screen-only">Digital Escape Velocity</span>
 			</Layout.Title>
 			<Layout.Spacer />

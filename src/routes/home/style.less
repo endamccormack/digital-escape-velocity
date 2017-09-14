@@ -2,6 +2,15 @@
   #home {
     width: 100%;
     text-align: center;
+    
+    #title {
+      margin: 0 auto;
+    }
+
+    .mdl-card {
+      font-size: 19px;
+      margin: 10px auto;
+    }
 
     #header {
       background-size: cover;
@@ -29,8 +38,11 @@
         }
       }
 
+      
       #title {
-        float: left;
+        @media screen and (min-width: 1024px) {
+          float: left;  
+        }
       }
     }
   }

@@ -12,7 +12,7 @@ const People = () => (
 						<h3>Technical</h3>
 						<div class="mdl-grid">
 							<div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--6-col">
-								<img src="assets/people/endamccormack.png" alt="eir (used to be known as Eircom)" />
+								<img src="assets/people/images/endamccormack.png" alt="Enda McCormack photo" />
 								<h3>Enda McCormack</h3>
 								<h4>Software Developer</h4>
 								{snippet}
