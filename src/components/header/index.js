@@ -12,6 +12,7 @@ const Header = () => (
 			<Layout.Content class="mdl-layout--large-screen-only">
 				<Navigation>
 					<Navigation.Link href="/">Home</Navigation.Link>
+					<Navigation.Link href="/people">People Available</Navigation.Link>
 				</Navigation>
 			</Layout.Content>
 		</Layout.HeaderRow>

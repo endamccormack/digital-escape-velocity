@@ -6,7 +6,7 @@ const Home = () => (
 			<div id="header" class="mdl-grid">
 				<div class="container">
 					<div id="title" class="mdl-cell mdl-cell--6-col">
-						<h1>We're a technology company who care a lot about delivering real transformation for the digital era</h1>
+						<h1>A technology company who care a lot about delivering real transformation for the digital era</h1>
 					</div>
 
 					<div id="logo" class="mdl-cell mdl-cell--6-col mdl-layout--large-screen-only">
@@ -23,7 +23,8 @@ const Home = () => (
 				<div class="mdl-grid">
 					<div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--3-col">
 						<h3>Delivery</h3>
-						Our people have broad skillsets and have primarily worked on digital services and digital platforms.
+						Digital services and digital platforms are our bread and butter. We care deeply about solving problems
+						and engineering
 					</div>
 					<div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--3-col">
 						<h3>Testing</h3>
@@ -44,30 +45,30 @@ const Home = () => (
 				<h2>Our people's previous engagements</h2>
 				<h4>Our people are our life blood, and our people will ultimately be who make you a success. Here is just a short list of what they're used to.</h4>
 				<div class="mdl-grid">
-					<div class="mdl-shadow--2dp mdl-cell mdl-cell--3-col">
+					<div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--3-col">
 						<img src="assets/companies/gds.jpg" alt="Government Digital Service" />
 					</div>
-					<div class="mdl-shadow--2dp mdl-cell mdl-cell--3-col">
+					<div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--3-col">
 						<img src="assets/companies/dfid.jpg" alt="Department for International Development" />
 					</div>
-					<div class="mdl-shadow--2dp mdl-cell mdl-cell--3-col">
+					<div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--3-col">
 						<img src="assets/companies/land-reg.jpg" alt="Land Registry" />
 					</div>
-					<div class="mdl-shadow--2dp mdl-cell mdl-cell--3-col">
+					<div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--3-col">
 						<img src="assets/companies/co.jpg" alt="Cabinet Office" />
 					</div>
 				</div>
 				<div class="mdl-grid">
-					<div class="mdl-shadow--2dp mdl-cell mdl-cell--3-col">
+					<div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--3-col">
 						<img src="assets/companies/eir.jpg" alt="eir (used to be known as Eircom)" />
 					</div>
-					<div class="mdl-shadow--2dp mdl-cell mdl-cell--3-col">
+					<div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--3-col">
 						<img src="assets/companies/moj.jpg" alt="Ministry Of Justice" />
 					</div>
-					<div class="mdl-shadow--2dp mdl-cell mdl-cell--3-col">
+					<div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--3-col">
 						<img src="assets/companies/hmcts.jpg" alt="Her Majesties Courts and Tribunals Service" />
 					</div>
-					<div class="mdl-shadow--2dp mdl-cell mdl-cell--3-col">
+					<div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--3-col">
 						<img src="assets/companies/dwp.jpg" alt="Department for Work and Pensions" />
 					</div>
 				</div>
