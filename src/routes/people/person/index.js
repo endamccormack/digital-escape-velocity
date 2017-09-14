@@ -1,5 +1,5 @@
-import enda from '../../../assets/people/markdown/endamccormack.md'
-import {markdown} from 'markdown';
+import enda from '../../../assets/people/markdown/endamccormack.md';
+import { markdown } from 'markdown';
 import Markup from 'preact-markup';
 
 

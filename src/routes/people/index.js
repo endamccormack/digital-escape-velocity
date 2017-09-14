@@ -1,6 +1,5 @@
 import './style.less';
-import snippet from '../../assets/people/snippet/endamccormack.txt'
-
+import snippet from '../../assets/people/snippet/endamccormack.txt';
 
 const People = () => (
 	<div id="people">
