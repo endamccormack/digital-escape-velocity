@@ -8,6 +8,7 @@ import Drawer from './drawer';
 import Footer from './footer';
 import Home from '../routes/home';
 import People from '../routes/people';
+import Person from '../routes/people/person';
 import GoogleAnalytics from './google-analytics';
 
 
@@ -28,6 +29,7 @@ export default class App extends Component {
 						<Router onChange={this.handleRoute}>
 							<Home path="/" />
 							<People path="/people" />
+							<Person path="/people/:person" />
 						</Router>
 						<Footer />
 					</Layout.Content>
