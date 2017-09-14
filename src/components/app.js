@@ -1,11 +1,13 @@
 import { h, Component } from 'preact';
 import { Router } from 'preact-router';
 import { Layout } from 'preact-mdl';
+import './app.less';
 
 import Header from './header';
 import Drawer from './drawer';
 import Footer from './footer';
 import Home from '../routes/home';
+import People from '../routes/people';
 import GoogleAnalytics from './google-analytics';
 
 
@@ -25,6 +27,7 @@ export default class App extends Component {
 					<Layout.Content>
 						<Router onChange={this.handleRoute}>
 							<Home path="/" />
+							<People path="/people" />
 						</Router>
 						<Footer />
 					</Layout.Content>
